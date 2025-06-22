@@ -13,78 +13,78 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+          Todo para tu mascota en un solo lugar
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          Lleva el control del carnet de vacunación, reporta mascotas perdidas, encuentra servicios veterinarios, hoteles para perros, petshops y mucho más.
         </Typography>
+
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
-            {`Get Started`}
+            {`Empezar ahora`}
           </Button>
         </Link>
         <Image
           width={1024}
           height={632}
-          alt="Pandem.dev hero image"
-          src="/hero1.png"
+          alt="Amipet hero image"
+          src="/inicio.jpg"
         />
       </div>
+
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Quick solutions, less stress
+            Soluciones rápidas para el cuidado de tus mascotas
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+              headline="Carnet digital al instante"
+              description="Consulta y actualiza el historial de vacunas y tratamientos desde cualquier lugar."
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
+              headline="Red de servicios veterinarios"
+              description="Encuentra clínicas, petshops y hoteles cercanos con opiniones reales y contacto directo."
             />
             <Feature
               icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
+              headline="Mascotas seguras"
+              description="Publica alertas de mascotas perdidas y recibe ayuda de tu comunidad en tiempo real."
             />
           </div>
         </div>
+
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+            Comienza en minutos, sin código personalizado
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+            Registra a tu mascota, sube su carnet, agenda citas y accede a todos los servicios desde tu celular.
           </Typography>
           <Image
             width={1024}
             height={632}
-            alt="Pandem.dev hero image"
-            src="/hero1.png"
+            alt="Amipet setup image"
+            src="/main.jpg"
           />
         </div>
+
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Get in touch
+            ¿Tienes preguntas o quieres colaborar?
           </Typography>
-          <div>Book a demo, or hop on a call</div>
+          <div>Agenda una demo o escríbenos directamente</div>
           <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+            href=""
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
-              {`Book now`}
+              {`Contáctanos`}
             </Button>
           </Link>
         </div>

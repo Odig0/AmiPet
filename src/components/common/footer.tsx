@@ -13,7 +13,7 @@ export function Footer() {
           >
             <img src="/logo.svg" className="mr-3" />
             <Typography className="!text-white !text-base font-medium ">
-              Pandem
+              AmiPet
             </Typography>
           </Link>
         </div>
@@ -24,7 +24,7 @@ export function Footer() {
             className="pointer block w-fit flex-1"
           >
             <Typography variant="p" className="w-max">
-              Book a demo
+              Solicita una demo
             </Typography>
           </Link>
           <Link

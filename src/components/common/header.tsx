@@ -21,7 +21,7 @@ export function Header({ className }: SidebarProps) {
   const items = [
     {
       href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Book a demo',
+      title: 'Solicita una demo ',
       openInNewTab: true
     }
     // { href: '#pricing', title: 'Features' },
@@ -35,7 +35,7 @@ export function Header({ className }: SidebarProps) {
     <Link href="/" className="pointer flex items-center">
       <img src="/logo.svg" className="mr-3" />
       <Typography className="!text-white !text-base font-medium ">
-        Pandem
+        AmiPet
       </Typography>
     </Link>
   )

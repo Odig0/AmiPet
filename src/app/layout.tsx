@@ -9,22 +9,21 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'Pandem - Information you need during on-call emergencies',
+  title: 'Amipet - Todo lo que necesitas para el cuidado de tu mascota',
   description:
-    'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+    'Gestiona el carnet de vacunación, publica mascotas perdidas, encuentra servicios veterinarios, petshops, hoteles caninos y mucho más. Todo en una sola app.',
   openGraph: {
     images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      'Pandem - Information you need during on-call emergencies',
+    title: 'Amipet - Todo lo que necesitas para el cuidado de tu mascota',
     description:
-      'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+      'Gestiona el carnet de vacunación, publica mascotas perdidas, encuentra servicios veterinarios, petshops, hoteles caninos y mucho más. Todo en una sola app.',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }
+
 
 export default function RootLayout({
   children
