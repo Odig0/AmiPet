@@ -16,14 +16,17 @@ export default function Home() {
           Todo para tu mascota en un solo lugar
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Lleva el control del carnet de vacunación, reporta mascotas perdidas, encuentra servicios veterinarios, hoteles para perros, petshops y mucho más.
+          Lleva el control del carnet de vacunación, reporta
+          mascotas perdidas, encuentra servicios
+          veterinarios, hoteles para perros, petshops y
+          mucho más.
         </Typography>
 
         <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
           target="_blank"
         >
-          <Button size="tiny" variant="ghost">
+          <Button className="bg-primary hover:bg-green-700 text-white" size="tiny" variant="ghost">
             {`Empezar ahora`}
           </Button>
         </Link>
@@ -38,7 +41,8 @@ export default function Home() {
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Soluciones rápidas para el cuidado de tus mascotas
+            Soluciones rápidas para el cuidado de tus
+            mascotas
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
@@ -64,7 +68,9 @@ export default function Home() {
             Comienza en minutos, sin código personalizado
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Registra a tu mascota, sube su carnet, agenda citas y accede a todos los servicios desde tu celular.
+            Registra a tu mascota, sube su carnet, agenda
+            citas y accede a todos los servicios desde tu
+            celular.
           </Typography>
           <Image
             width={1024}
@@ -78,11 +84,10 @@ export default function Home() {
           <Typography className="max-w-2xl" variant="h1">
             ¿Tienes preguntas o quieres colaborar?
           </Typography>
-          <div>Agenda una demo o escríbenos directamente</div>
-          <Link
-            href=""
-            target="_blank"
-          >
+          <div>
+            Agenda una demo o escríbenos directamente
+          </div>
+          <Link href="" target="_blank">
             <Button size="tiny" variant="ghost">
               {`Contáctanos`}
             </Button>

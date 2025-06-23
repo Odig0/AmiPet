@@ -9,7 +9,8 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Amipet - Todo lo que necesitas para el cuidado de tu mascota',
+  title:
+    'Amipet - Todo lo que necesitas para el cuidado de tu mascota',
   description:
     'Gestiona el carnet de vacunación, publica mascotas perdidas, encuentra servicios veterinarios, petshops, hoteles caninos y mucho más. Todo en una sola app.',
   openGraph: {
@@ -17,13 +18,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Amipet - Todo lo que necesitas para el cuidado de tu mascota',
+    title:
+      'Amipet - Todo lo que necesitas para el cuidado de tu mascota',
     description:
       'Gestiona el carnet de vacunación, publica mascotas perdidas, encuentra servicios veterinarios, petshops, hoteles caninos y mucho más. Todo en una sola app.',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }
-
 
 export default function RootLayout({
   children
@@ -37,10 +38,10 @@ export default function RootLayout({
       className="antialiased"
     >
       <Analytics />
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-background text-foreground`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
